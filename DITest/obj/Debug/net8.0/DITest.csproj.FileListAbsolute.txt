@@ -30,3 +30,4 @@ D:\TestDI\DITest\DITest\obj\Debug\net8.0\refint\DITest.dll
 D:\TestDI\DITest\DITest\obj\Debug\net8.0\DITest.pdb
 D:\TestDI\DITest\DITest\obj\Debug\net8.0\DITest.genruntimeconfig.cache
 D:\TestDI\DITest\DITest\obj\Debug\net8.0\ref\DITest.dll
+D:\TestDI\DITest\DITest\obj\Debug\net8.0\DITest.sourcelink.json

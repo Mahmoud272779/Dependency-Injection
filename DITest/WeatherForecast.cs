@@ -25,4 +25,14 @@ namespace DITest
 	{
 		public int r { get; set; } = new Random().Next(0, 10000);
 	}
+
+	public static class DI 
+	{
+		public static void addDI(IServiceCollection s)
+		{
+			s.AddScoped<scopped>();
+			s.AddSingleton<singlet>();
+			s.AddTransient<trans>();
+		}
+	}
 }
