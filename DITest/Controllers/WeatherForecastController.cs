@@ -46,6 +46,9 @@ namespace DITest.Controllers
 		[HttpGet("DI_Test")]
 		public IActionResult get ()
 		{
+			int n = 10;
+			int m = 5;
+			
 			var ss = new
 			{
 				sin2 = sin2.r,
@@ -53,13 +56,32 @@ namespace DITest.Controllers
 				sc1 = sc1.r,
 				sc2 = sc2.r,
 				t1 = t1.r,
-				t2 = t2.r
-
+				t2 = t2.r,
+				Csin1=singlet.myint,
+				Csin2= singlet.myint,
+				Csc1= scopped.myint,
+				Csc2= scopped.myint,
+				sum = DI.sum(n, m, (n, m) => n + m),
+				div = DI.sum(n, m, (n, m) => n / m)
 			};
 
 			return Ok(ss);
 		}
 
+		[HttpGet("increaseCounter")]
+
+		public void increaseCounter()
+		{
+
+			singlet.myint++;
+			singlet.myint++;
+			scopped.myint++;
+			scopped.myint++;
+
+			
+
+			
+		}
 
 	}
 

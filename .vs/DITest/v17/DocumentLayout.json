@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\TestDI\\DITest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|d:\\testdi\\ditest\\ditest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|solutionrelative:ditest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|d:\\testdi\\ditest\\ditest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|solutionrelative:ditest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|d:\\testdi\\ditest\\ditest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|solutionrelative:ditest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|d:\\testdi\\ditest\\ditest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|solutionrelative:ditest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|d:\\testdi\\ditest\\ditest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF6F3A97-60E4-4882-A3B2-F23FBF2B6A04}|DITest\\DITest.csproj|solutionrelative:ditest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\TestDI\\DITest\\DITest\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "DITest\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "D:\\TestDI\\DITest\\DITest\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "DITest\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwC0AAAAPAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwEAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T10:39:36.582Z",
               "EditorCaption": ""
@@ -53,20 +53,20 @@
               "RelativeDocumentMoniker": "DITest\\WeatherForecast.cs",
               "ToolTip": "D:\\TestDI\\DITest\\DITest\\WeatherForecast.cs",
               "RelativeToolTip": "DITest\\WeatherForecast.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wCAAAAADAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwC0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T10:33:35.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TestDI\\DITest\\DITest\\Program.cs",
               "RelativeDocumentMoniker": "DITest\\Program.cs",
-              "ToolTip": "D:\\TestDI\\DITest\\DITest\\Program.cs*",
-              "RelativeToolTip": "DITest\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "ToolTip": "D:\\TestDI\\DITest\\DITest\\Program.cs",
+              "RelativeToolTip": "DITest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T10:32:40.005Z",
               "EditorCaption": ""

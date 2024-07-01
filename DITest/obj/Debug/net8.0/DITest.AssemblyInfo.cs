@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DITest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6c65d31a172bd979c212375092f541688a8aefe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c55a4a215f5e8c48de017523d910f5fab8e836d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DITest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DITest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

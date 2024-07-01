@@ -14,11 +14,13 @@ namespace DITest
 	public class singlet 
 	{
         public int r { get; set; }=new Random().Next(0,10000);
-    }
+		public static int myint  = 0;
+	}
 
 	public class scopped
 	{
 		public int r { get; set; } = new Random().Next(0, 10000);
+		public static int myint  = 0;
 	}
 
 	public class trans
@@ -34,5 +36,16 @@ namespace DITest
 			s.AddSingleton<singlet>();
 			s.AddTransient<trans>();
 		}
+
+		public delegate int funcDelegte(int n,int m);
+
+	public static	int  sum(int n,int m,funcDelegte f) 
+		{
+			int res = f(n, m);
+			Console.WriteLine(res);
+			return res;
+		}
+
+		
 	}
 }
